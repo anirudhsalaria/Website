@@ -1,0 +1,141 @@
+* {
+  font-family: sans-serif;
+  background-image: url("");
+}
+
+body {
+  background-image: url("https://png.pngtree.com/background/20210709/original/pngtree-valentines-day-background-illustration-love-gift-box-pink-picture-image_935659.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 0;
+  background-attachment: fixed;
+}
+
+header {
+  /* background-color: #333; */
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  /* border: 2px solid red; */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #333;
+  color: #fff;
+  background: linear-gradient(to right, #00b09b, #96c93d);
+  box-shadow: 0px 0px 10px 0px #333;
+  border-radius: 10px;
+}
+
+ul li a:hover {
+  background-color: #45a049;
+}
+
+#logo:hover {
+  opacity: 0.8;
+}
+
+a:hover {
+  color: #45a049;
+}
+
+
+#logo {
+  width: 50px;
+  height: 50px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  /* border: 2px solid red; */
+  /* padding: 7px 8px; */
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  nav {
+    flex-wrap: wrap;
+  }
+
+  #logo {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  li {
+    margin: 10px 0;
+    text-align: center;
+  }
+}
+
+
+
+
+form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* label {
+    font-weight: bold;
+  } */
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #b33192;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: medium;
+  font-weight: 400;
+  transition: transform(0.3s);
+}
+
+input[type="submit"]:hover {
+  background-color: #df0bcd;
+  transform: scale(1.01);
+}

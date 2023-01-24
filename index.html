@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="logo.png" alt="Logo" id="logo">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#status">Check Status</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+
+
+    <form>
+        <label>Name:</label>
+        <input type="text" name="name" required>
+        <br>
+        <label>Date of Birth:</label>
+        <input type="date" name="dob" required>
+        <br>
+        <label>Email:</label>
+        <input type="email" name="email" required>
+        <br>
+        <label>Phone Number:</label>
+        <input type="tel" name="phone" required>
+        <br>
+
+        <label>Your Branch?</label>
+        <br>
+        <input type="radio" id="cs" name="branch" value="Computer Science">
+        <label for="cs">Computer Science</label>
+        <br>
+        <input type="radio" id="el" name="branch" value="Electronics">
+        <label for="el">Electronics</label>
+        <br>
+        <input type="radio" id="me" name="branch" value="Mechanical">
+        <label for="me">Mechanical</label>
+        <br>
+        <input type="radio" id="ee" name="branch" value="Electrical">
+        <label for="ee">Electrical</label>
+        <br>
+        <input type="radio" id="ci" name="branch" value="Civil">
+        <label for="ci">Civil</label>
+        <br>
+        <input type="radio" id="ot" name="branch" value="Other">
+        <label for="ot">Other</label>
+        <br><br>
+
+        <label>Enter your current year:</label>
+        <br>
+        <input type="radio" id="1st" name="year" value="1st">
+        <label for="1st">1st</label>
+        <br>
+        <input type="radio" id="2nd" name="year" value="2nd">
+        <label for="2nd">2nd</label>
+        <br>
+        <input type="radio" id="3rd" name="year" value="3rd">
+        <label for="3rd">3rd</label>
+        <br>
+        <input type="radio" id="4th" name="year" value="4th">
+        <label for="4th">4th</label>
+        <input type="submit" value="Submit">
+
+
+    </form>
+
+</body>
+
+</html>
